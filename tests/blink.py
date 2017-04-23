@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO  
 import time  
 # blinking function
-pin = 8
+pin = 11
 
 
 def blink(pin):  
