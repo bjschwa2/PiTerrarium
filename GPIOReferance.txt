@@ -3,17 +3,17 @@ GPIO PINOUT
 
 
 
-ac plug 1: pin 11 - success
-ac plug 2: pin 16 - success
-ac plug 3: pin 12 - success
-ac plug 4: pin 15 - success
-ac plug 5: pin 13 - fail (possibly bad relay switch)
-ac plug 6: pin 7 - success
+ac plug 1: pin 11 - GPIO 17 - success
+ac plug 2: pin 16 - GPIO 23 - success
+ac plug 3: pin 12 - GPIO 18 - success
+ac plug 4: pin 15 - GPIO 22 - success
+ac plug 5: pin 13 - GPIO 27 - fail (possibly bad relay switch)
+ac plug 6: pin 7  - GPIO 4  - success
 
 usb 1
-usb 2: pin 8 - success
-usb 3: pin 10 - success
-usb 4: pin 18 - success 
-usb 5: pin 19 - success
-usb 6: pin 21 - success
+usb 2: pin 8  - GPIO 14 - success
+usb 3: pin 10 - GPIO 15 - success
+usb 4: pin 18 - GPIO 24 - success 
+usb 5: pin 19 - GPIO 10 - success
+usb 6: pin 21 - GPIO 9  - success
 
