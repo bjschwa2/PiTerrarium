@@ -1,11 +1,8 @@
 
 
 '''
-
-Adapted excerpt from Getting Started with Raspberry Pi by Matt Richardson
-
-Modified by Rui Santos
-Complete project details: http://randomnerdtutorials.com
+PiTerrarrium interface for controlling rasberry pi GPIO header
+author: Bradley Schwarz
 
 '''
 
@@ -17,14 +14,17 @@ GPIO.setmode(GPIO.BCM)
 
 # Create a dictionary called pins to store the pin number, name, and pin state:
 pins = {
-        17 : {'name' : 'Sprinklers: GPIO 17', 'state' : GPIO.LOW},
-        23 : {'name' : 'Lights: GPIO 23', 'state' : GPIO.LOW},
-        18 : {'name' : 'Heater: GPIO 18', 'state' : GPIO.LOW},
-        15 : {'name' : 'Fan: GPIO 15', 'state': GPIO.LOW},
-        24 : {'name' : 'Temp1: GPIO 24', 'state': GPIO.LOW},
-        10 : {'name' : 'Humidity: GPIO 10', 'state': GPIO.LOW},
-        9 : {'name' : 'Temp2: GPIO 09', 'state': GPIO.LOW},
-
+        17 : {'name' : 'AC 1 Sprinklers', 'state' : GPIO.LOW},
+        23 : {'name' : 'AC 2 Lights', 'state' : GPIO.LOW},
+        18 : {'name' : 'AC 3 Heater', 'state' : GPIO.LOW},
+        22 : {'name' : 'AC 4', 'state' : GPIO.LOW},
+        27 : {'name' : 'AC 5', 'state' : GPIO.LOW},
+        4  : {'name' : 'AC 6', 'state' : GPIO.LOW},
+        14 : {'name' : '5v 1', 'state' : GPIO.LOW},
+        15 : {'name' : '5v 1Fan', 'state': GPIO.LOW},
+        24 : {'name' : 'Input 1 Temp1', 'state': GPIO.LOW},
+        10 : {'name' : 'Input 2 Humidity', 'state': GPIO.LOW},
+        9  : {'name' : 'Input 3 Temp2', 'state': GPIO.LOW}
    }
 
 # Set each pin as an output and make it low:
